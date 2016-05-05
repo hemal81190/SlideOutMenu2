@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationViewController.h
 //  SlideOutMenu
 //
 //  Created by Jared Davidson on 7/14/14.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (weak,nonatomic) IBOutlet UIBarButtonItem *barButton;
-
+@interface NavigationViewController : UITableViewController
 
 @end

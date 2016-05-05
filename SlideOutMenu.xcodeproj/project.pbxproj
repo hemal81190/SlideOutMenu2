@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3136A719749BAC00F5050B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3136A619749BAC00F5050B /* SWRevealViewController.m */; };
 		ACA1018419746FA000A8B82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1018319746FA000A8B82E /* Foundation.framework */; };
 		ACA1018619746FA000A8B82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1018519746FA000A8B82E /* CoreGraphics.framework */; };
 		ACA1018819746FA000A8B82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1018719746FA000A8B82E /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		ACA101A519746FA000A8B82E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA1018719746FA000A8B82E /* UIKit.framework */; };
 		ACA101AD19746FA000A8B82E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA101AB19746FA000A8B82E /* InfoPlist.strings */; };
 		ACA101AF19746FA000A8B82E /* SlideOutMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA101AE19746FA000A8B82E /* SlideOutMenuTests.m */; };
+		ACA101BE1974762B00A8B82E /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA101BD1974762B00A8B82E /* NavigationViewController.m */; };
+		E79B50FB1CDB1B7600BDA9A8 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79B50FA1CDB1B7500BDA9A8 /* loginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC3136A519749BAC00F5050B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SlideOutMenuFiles/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		AC3136A619749BAC00F5050B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SlideOutMenuFiles/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
 		ACA1018019746FA000A8B82E /* SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA1018319746FA000A8B82E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACA1018519746FA000A8B82E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,10 @@
 		ACA101AA19746FA000A8B82E /* SlideOutMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideOutMenuTests-Info.plist"; sourceTree = "<group>"; };
 		ACA101AC19746FA000A8B82E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACA101AE19746FA000A8B82E /* SlideOutMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideOutMenuTests.m; sourceTree = "<group>"; };
+		ACA101BC1974762B00A8B82E /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		ACA101BD1974762B00A8B82E /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		E79B50F91CDB1B7500BDA9A8 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		E79B50FA1CDB1B7500BDA9A8 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,8 @@
 		ACA1017719746FA000A8B82E = {
 			isa = PBXGroup;
 			children = (
+				E79B50F91CDB1B7500BDA9A8 /* loginViewController.h */,
+				E79B50FA1CDB1B7500BDA9A8 /* loginViewController.m */,
 				ACA1018919746FA000A8B82E /* SlideOutMenu */,
 				ACA101A819746FA000A8B82E /* SlideOutMenuTests */,
 				ACA1018219746FA000A8B82E /* Frameworks */,
@@ -116,6 +127,8 @@
 				ACA1019319746FA000A8B82E /* AppDelegate.m */,
 				ACA1019519746FA000A8B82E /* Main.storyboard */,
 				ACA1019819746FA000A8B82E /* ViewController.h */,
+				ACA101BC1974762B00A8B82E /* NavigationViewController.h */,
+				ACA101BD1974762B00A8B82E /* NavigationViewController.m */,
 				ACA1019919746FA000A8B82E /* ViewController.m */,
 				ACA1019B19746FA000A8B82E /* Images.xcassets */,
 				ACA1018A19746FA000A8B82E /* Supporting Files */,
@@ -126,6 +139,7 @@
 		ACA1018A19746FA000A8B82E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ACA101B819746FCA00A8B82E /* SlideOutMenuFiles */,
 				ACA1018B19746FA000A8B82E /* SlideOutMenu-Info.plist */,
 				ACA1018C19746FA000A8B82E /* InfoPlist.strings */,
 				ACA1018F19746FA000A8B82E /* main.m */,
@@ -150,6 +164,16 @@
 				ACA101AB19746FA000A8B82E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACA101B819746FCA00A8B82E /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AC3136A519749BAC00F5050B /* SWRevealViewController.h */,
+				AC3136A619749BAC00F5050B /* SWRevealViewController.m */,
+			);
+			name = SlideOutMenuFiles;
+			path = ../../../Desktop/SlideOutMenuFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +275,9 @@
 			files = (
 				ACA1019A19746FA000A8B82E /* ViewController.m in Sources */,
 				ACA1019419746FA000A8B82E /* AppDelegate.m in Sources */,
+				AC3136A719749BAC00F5050B /* SWRevealViewController.m in Sources */,
+				ACA101BE1974762B00A8B82E /* NavigationViewController.m in Sources */,
+				E79B50FB1CDB1B7600BDA9A8 /* loginViewController.m in Sources */,
 				ACA1019019746FA000A8B82E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +483,7 @@
 				ACA101B419746FA000A8B82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACA101B519746FA000A8B82E /* Build configuration list for PBXNativeTarget "SlideOutMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +492,7 @@
 				ACA101B719746FA000A8B82E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
